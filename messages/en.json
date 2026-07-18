@@ -1,0 +1,257 @@
+{
+  "common": {
+    "brand": "Lumen",
+    "tagline": "Build the impossible.",
+    "getStarted": "Get Started",
+    "contactUs": "Contact Us",
+    "viewWork": "View Work",
+    "learnMore": "Learn more",
+    "viewProject": "View Project",
+    "loading": "Loading…",
+    "error": "Something went wrong",
+    "retry": "Try again",
+    "backToHome": "Back to home",
+    "language": "Language",
+    "theme": "Theme",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeSystem": "System"
+  },
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "pricing": "Pricing",
+    "testimonials": "Testimonials",
+    "contact": "Contact",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "skipToContent": "Skip to content"
+  },
+  "hero": {
+    "eyebrow": "Next-gen digital studio",
+    "title": "We craft products that feel like the future",
+    "subtitle": "Award-winning studio shipping 3D, motion and AI-powered experiences for ambitious brands.",
+    "stat1": "Years of craft",
+    "stat2": "Products shipped",
+    "stat3": "Happy clients",
+    "stat4": "Satisfaction",
+    "scroll": "Scroll to explore"
+  },
+  "services": {
+    "title": "What we do best",
+    "subtitle": "A focused team with the depth to design, build and scale ambitious products end-to-end.",
+    "items": {
+      "product": {
+        "title": "Product Design",
+        "description": "Research, design systems, and pixel-perfect interfaces for SaaS, fintech, and consumer apps."
+      },
+      "web": {
+        "title": "Web Engineering",
+        "description": "Next.js, TypeScript, and edge-first architectures. Fast, accessible, and ready to scale."
+      },
+      "threeD": {
+        "title": "3D & WebGL",
+        "description": "Immersive product configurators, interactive storytelling, and Three.js experiences."
+      },
+      "motion": {
+        "title": "Motion & Interaction",
+        "description": "Choreographed Framer Motion and GSAP flows that make every interaction feel alive."
+      },
+      "ai": {
+        "title": "AI Integrations",
+        "description": "LLM copilots, semantic search, and workflow automation wired into your product."
+      },
+      "growth": {
+        "title": "Growth & SEO",
+        "description": "Technical SEO, analytics, and experimentation so great work gets discovered."
+      }
+    }
+  },
+  "portfolio": {
+    "title": "Selected work",
+    "subtitle": "A snapshot of recent products we've shipped with founders and enterprise teams.",
+    "filterAll": "All",
+    "filterWeb": "Web",
+    "filterMobile": "Mobile",
+    "filterDesign": "Design",
+    "filterThreeD": "3D",
+    "viewLive": "Live",
+    "viewCode": "Source",
+    "tech": "Tech",
+    "close": "Close"
+  },
+  "pricing": {
+    "title": "Simple, honest pricing",
+    "subtitle": "Engagement models that scale with you. No surprise retainers.",
+    "monthly": "Monthly",
+    "yearly": "Yearly",
+    "saveUpTo": "Save up to 20%",
+    "month": "/month",
+    "year": "/year",
+    "starter": {
+      "name": "Starter",
+      "price": "2,400",
+      "description": "For founders shipping their first product.",
+      "cta": "Start a project",
+      "features": [
+        "1 active sprint",
+        "Product design + web build",
+        "Up to 6 sections / page",
+        "1 round of revisions",
+        "2-week turnaround"
+      ]
+    },
+    "pro": {
+      "name": "Pro",
+      "price": "6,800",
+      "description": "For teams scaling past launch.",
+      "cta": "Book a call",
+      "popular": "Most popular",
+      "features": [
+        "Everything in Starter",
+        "3D & motion in scope",
+        "Design system + tokens",
+        "CMS & admin panel",
+        "Dedicated lead"
+      ]
+    },
+    "enterprise": {
+      "name": "Enterprise",
+      "price": "Custom",
+      "description": "For global teams with complex needs.",
+      "cta": "Contact sales",
+      "features": [
+        "Everything in Pro",
+        "Multi-locale + compliance",
+        "SLA & on-call",
+        "Procurement-friendly",
+        "Quarterly strategy"
+      ]
+    }
+  },
+  "stats": {
+    "years": "Years of craft",
+    "projects": "Products shipped",
+    "clients": "Happy clients",
+    "satisfaction": "Satisfaction"
+  },
+  "testimonials": {
+    "title": "What partners say",
+    "subtitle": "Trusted by founders, design leads, and CTOs at companies you've heard of."
+  },
+  "cta": {
+    "title": "Ready to ship something unforgettable?",
+    "subtitle": "We take on a handful of partners each quarter. Tell us what you're building.",
+    "button": "Start a conversation"
+  },
+  "contact": {
+    "title": "Get in touch",
+    "subtitle": "We reply within one business day. Real humans, no SDR funnels.",
+    "name": "Your name",
+    "email": "Email",
+    "subject": "Subject",
+    "message": "Tell us about your project",
+    "send": "Send message",
+    "sending": "Sending…",
+    "success": "Thanks! We'll be in touch within 24 hours.",
+    "error": "Something went wrong. Please try again or email us directly.",
+    "info": {
+      "title": "Reach us directly",
+      "emailLabel": "Email",
+      "phoneLabel": "Phone",
+      "addressLabel": "Studio",
+      "followUs": "Follow us"
+    }
+  },
+  "footer": {
+    "tagline": "A digital studio for ambitious teams.",
+    "sitemap": "Studio",
+    "resources": "Resources",
+    "contact": "Contact",
+    "rights": "All rights reserved.",
+    "newsletter": {
+      "title": "Studio notes",
+      "subtitle": "Monthly field notes from our team. No spam.",
+      "placeholder": "you@company.com",
+      "subscribe": "Subscribe"
+    }
+  },
+  "auth": {
+    "login": "Sign in",
+    "logout": "Sign out",
+    "email": "Email",
+    "password": "Password",
+    "signInButton": "Sign in",
+    "signingIn": "Signing in…",
+    "noAccount": "Don't have an account?",
+    "invalidCredentials": "Invalid email or password",
+    "success": "Welcome back",
+    "demoHint": "Demo: admin@example.com / admin123"
+  },
+  "admin": {
+    "dashboard": "Dashboard",
+    "articles": "Articles",
+    "projects": "Projects",
+    "media": "Media",
+    "users": "Users",
+    "messages": "Messages",
+    "settings": "Settings",
+    "newArticle": "New article",
+    "newProject": "New project",
+    "newUser": "New user",
+    "edit": "Edit",
+    "delete": "Delete",
+    "save": "Save",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "confirmDelete": "Are you sure? This cannot be undone.",
+    "createSuccess": "Created successfully",
+    "updateSuccess": "Updated successfully",
+    "deleteSuccess": "Deleted successfully",
+    "noResults": "No results yet",
+    "search": "Search",
+    "all": "All",
+    "published": "Published",
+    "draft": "Draft",
+    "titleEn": "Title (English)",
+    "titleAr": "Title (Arabic)",
+    "excerptEn": "Excerpt (English)",
+    "excerptAr": "Excerpt (Arabic)",
+    "contentEn": "Content (English)",
+    "contentAr": "Content (Arabic)",
+    "slug": "Slug",
+    "coverImage": "Cover image URL",
+    "tags": "Tags (comma-separated)",
+    "descriptionEn": "Description (English)",
+    "descriptionAr": "Description (Arabic)",
+    "category": "Category",
+    "technologies": "Technologies (comma-separated)",
+    "liveUrl": "Live URL",
+    "githubUrl": "GitHub URL",
+    "featured": "Featured",
+    "order": "Display order",
+    "name": "Name",
+    "role": "Role",
+    "image": "Image",
+    "value": "Value",
+    "key": "Key",
+    "statUsers": "Total users",
+    "statArticles": "Total articles",
+    "statProjects": "Total projects",
+    "statMessages": "Unread messages",
+    "recentActivity": "Recent activity",
+    "unread": "Unread",
+    "read": "Read",
+    "markRead": "Mark as read",
+    "uploadFile": "Upload file",
+    "dragDrop": "Drag & drop files here, or click to browse",
+    "copyUrl": "Copy URL",
+    "copied": "Copied!"
+  },
+  "errors": {
+    "notFound": "Page not found",
+    "notFoundDesc": "The page you're looking for doesn't exist or has been moved.",
+    "serverError": "Something went wrong on our end"
+  }
+}

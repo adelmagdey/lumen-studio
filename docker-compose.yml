@@ -1,0 +1,19 @@
+services:
+  app:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      DATABASE_URL: "file:/data/dev.db"
+      AUTH_SECRET: "${AUTH_SECRET:-please-change-me-in-production}"
+      AUTH_URL: "http://localhost:3000"
+      NEXT_PUBLIC_SITE_URL: "http://localhost:3000"
+      RESEND_API_KEY: "${RESEND_API_KEY:-}"
+    volumes:
+      - sqlite-data:/data
+      - uploads:/app/public/uploads
+    restart: unless-stopped
+
+volumes:
+  sqlite-data:
+  uploads:
