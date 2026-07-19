@@ -2,9 +2,11 @@ import { prisma } from "@/lib/db";
 import { getTranslations } from "next-intl/server";
 import { SettingsForm } from "./_components/settings-form";
 
+export const dynamic = "force-dynamic";
+
 export default async function SettingsPage() {
   const t = await getTranslations("admin");
-  const settings = await prisma.setting.findMany();
+  const settings = await prisma.setting.findMany().catch(() => []);
 
   return (
     <div className="space-y-6">

@@ -7,12 +7,14 @@ import { Card, CardContent } from "@/components/ui/card";
 import { formatDate } from "@/lib/utils";
 import { deleteArticle } from "../_actions/articles";
 
+export const dynamic = "force-dynamic";
+
 export default async function ArticlesPage() {
   const t = await getTranslations("admin");
   const articles = await prisma.article.findMany({
     orderBy: { createdAt: "desc" },
     include: { author: { select: { name: true, email: true } } },
-  });
+  }).catch(() => []);
 
   return (
     <div className="space-y-6">

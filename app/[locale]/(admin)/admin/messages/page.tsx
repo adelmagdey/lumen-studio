@@ -6,11 +6,13 @@ import { Button } from "@/components/ui/button";
 import { Mail, Trash2, Check } from "lucide-react";
 import { markRead, deleteMessage } from "../_actions/messages";
 
+export const dynamic = "force-dynamic";
+
 export default async function MessagesPage() {
   const t = await getTranslations("admin");
   const messages = await prisma.message.findMany({
     orderBy: { createdAt: "desc" },
-  });
+  }).catch(() => []);
 
   return (
     <div className="space-y-6">

@@ -6,11 +6,13 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { deleteProject } from "../_actions/projects";
 
+export const dynamic = "force-dynamic";
+
 export default async function ProjectsPage() {
   const t = await getTranslations("admin");
   const projects = await prisma.project.findMany({
     orderBy: [{ featured: "desc" }, { order: "asc" }],
-  });
+  }).catch(() => []);
 
   return (
     <div className="space-y-6">

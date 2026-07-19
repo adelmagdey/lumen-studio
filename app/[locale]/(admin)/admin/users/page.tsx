@@ -8,6 +8,8 @@ import { Trash2 } from "lucide-react";
 import { formatDate } from "@/lib/utils";
 import { deleteUser } from "../_actions/users";
 
+export const dynamic = "force-dynamic";
+
 export default async function UsersPage() {
   const session = await auth();
   if (session?.user?.role !== "ADMIN") {
@@ -16,7 +18,7 @@ export default async function UsersPage() {
   const t = await getTranslations("admin");
   const users = await prisma.user.findMany({
     orderBy: { createdAt: "desc" },
-  });
+  }).catch(() => []);
 
   return (
     <div className="space-y-6">

@@ -7,11 +7,13 @@ import { Button } from "@/components/ui/button";
 import { Trash2 } from "lucide-react";
 import Image from "next/image";
 
+export const dynamic = "force-dynamic";
+
 export default async function MediaPage() {
   const t = await getTranslations("admin");
   const media = await prisma.media.findMany({
     orderBy: { createdAt: "desc" },
-  });
+  }).catch(() => []);
 
   return (
     <div className="space-y-6">
